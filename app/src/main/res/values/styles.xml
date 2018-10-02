@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen"></style>
+
+    <style name="title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/txtTitle_dimen</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/btnMinWidth_dimen</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/btnMinHeight_dimen</item>
+        <item name="android:layout_margin">@dimen/btnMargin_dimen</item>
+        <item name="android:textSize">@dimen/btnTxtSize_dimen</item>
+        <item name="android:onClick">toPlay</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/txtRadio_dimen</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+    <style name="box">
+        <item name="android:layout_width">@dimen/box_dimen</item>
+        <item name="android:layout_height">@dimen/box_dimen</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:onClick">touch</item>
+    </style>
+
+</resources>

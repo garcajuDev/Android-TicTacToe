@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_dimen">12dp</dimen>
+    <dimen name="box_dimen">90dp</dimen>
+    <dimen name="txtTitle_dimen">24sp</dimen>
+    <dimen name="btnTxtSize_dimen">18sp</dimen>
+    <dimen name="btnMinWidth_dimen">140dp</dimen>
+    <dimen name="btnMinHeight_dimen">36dp</dimen>
+    <dimen name="btnMargin_dimen">6dp</dimen>
+    <dimen name="radio_dimen">6dp</dimen>
+    <dimen name="btnPadding_dimen">6dp</dimen>
+    <dimen name="txtRadio_dimen">12sp</dimen>
+</resources>

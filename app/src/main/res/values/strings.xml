@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <string name="singlePlay">Single Player</string>
+    <string name="twoPlay">Two Players</string>
+    <string name="easy">Easy Level</string>
+    <string name="normal">Normal Level</string>
+    <string name="god">God Level</string>
+    <string name="tile">Tile</string>
+    <string name="rounds">Rounds Wins!</string>
+    <string name="crosses">Crosses Wins!</string>
+    <string name="tie">Tie!</string>
+
+</resources>

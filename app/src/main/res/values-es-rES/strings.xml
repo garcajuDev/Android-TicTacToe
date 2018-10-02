@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3enRaya</string>
+
+    <string name="singlePlay">Un Jugador</string>
+    <string name="twoPlay">Dos Jugadores</string>
+    <string name="easy">Facil</string>
+    <string name="normal">Normal</string>
+    <string name="god">Modo Dios</string>
+    <string name="tile">Casilla</string>
+    <string name="rounds">Círculos Ganan!</string>
+    <string name="crosses">Aspas Ganan!</string>
+    <string name="tie">Empate!</string>
+</resources>

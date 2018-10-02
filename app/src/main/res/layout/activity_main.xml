@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_dimen"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="0.5"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            style="@style/title"
+            android:text="@string/app_name"/>
+
+        <Button
+            android:id="@+id/btnSingle"
+            android:text="@string/singlePlay"
+            style="@style/button"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radGroupLevel">
+
+            <RadioButton
+                android:id="@+id/easyRad"
+                android:text="@string/easy"
+                style="@style/radio"/>
+
+            <RadioButton
+                android:id="@+id/normalRad"
+                style="@style/radio"
+                android:checked="true"
+                android:text="@string/normal" />
+            <RadioButton
+                android:id="@+id/godRad"
+                android:text="@string/god"
+                style="@style/radio"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnTwoPlayers"
+            android:text="@string/twoPlay"
+            style="@style/button"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="0.5"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/a1"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/a2"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/a3"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/b1"
+            android:src="@drawable/aspa"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/b2"
+            android:src="@drawable/circulo"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/b3"
+            android:src="@drawable/aspa"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/c1"
+            android:src="@drawable/circulo"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/c2"
+            style="@style/box"/>
+        <ImageView
+            android:id="@+id/c3"
+            android:src="@drawable/aspa"
+            style="@style/box"/>
+    </GridLayout>
+</LinearLayout>
