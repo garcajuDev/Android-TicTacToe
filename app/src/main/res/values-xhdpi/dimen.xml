@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="screen_dimen">12dp</dimen>
-    <dimen name="box_dimen">120dp</dimen>
-    <dimen name="txtTitle_dimen">48sp</dimen>
-    <dimen name="btnSize_dimen">36sp</dimen>
+    <dimen name="box_dimen">100dp</dimen>
+    <dimen name="txtTitle_dimen">40sp</dimen>
+    <dimen name="btnSize_dimen">32sp</dimen>
     <dimen name="btnMinWidth_dimen">280dp</dimen>
     <dimen name="btnMinHeight_dimen">72dp</dimen>
     <dimen name="btnMargin_dimen">6dp</dimen>

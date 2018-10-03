@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">3enRaya</string>
+    <string name="app_name">X vs O</string>
 
     <string name="singlePlay">Un Jugador</string>
     <string name="twoPlay">Dos Jugadores</string>
